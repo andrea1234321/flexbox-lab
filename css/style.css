@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(34, 116, 112);
+}
+.container{
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+}
+.upper-half{
+  height: 150px;
+  display: flex;
+}
+.lower-half{
+  background-color: white;
+  height: 50px;
+  display: flex;
+}
+.profile{
+  background-color: white;
+  width: 150px;
+}
+.icons{
+  background-color: rgb(114, 178, 114);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
+}
+.profile-info{
+  background-color: grey;
+  width: 250px;
+}
+.name{
+  background-color: red;
+  height: 40px;
+}
+.stars{
+  background-color: blue;
+  height: 20px;
+}
+.occupation{
+  background-color: yellow;
+  height: 20px
+}
+.specialty{
+  background-color: green;
+  height: 70px;
+}
